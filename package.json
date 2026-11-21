@@ -1,7 +1,7 @@
 {
   "name": "@kevlai22/paseo-notes",
   "version": "0.1.0",
-  "description": "A simple autosaved scratchpad for temporary notes in Paseo.",
+  "description": "A simple autosaved scratchpad for temporary notes.",
   "type": "module",
   "license": "MIT",
   "author": "Kevin Lai",
