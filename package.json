@@ -1,0 +1,54 @@
+{
+  "name": "@kevlai22/paseo-notes",
+  "version": "0.1.0",
+  "description": "A simple autosaved scratchpad for temporary notes in Paseo.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Kevin Lai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevguy/paseo-notes.git"
+  },
+  "homepage": "https://github.com/kevguy/paseo-notes#readme",
+  "bugs": {
+    "url": "https://github.com/kevguy/paseo-notes/issues"
+  },
+  "keywords": ["paseo", "paseo-plugin", "notes", "scratchpad", "quick-notes"],
+  "files": [
+    "paseo-plugin.json",
+    "README.md",
+    "OVERVIEW.md",
+    "LICENSE",
+    "npm-shrinkwrap.json",
+    "index.client.tsx",
+    "index.server.ts",
+    "client/",
+    "shared/",
+    "docs/screenshots/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "prepack": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.0",
+    "@types/react-dom": "~19.2.3",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.56.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.81.5",
+    "react-native-web": "^0.21.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  },
+  "dependencies": {
+    "@getpaseo/plugin": "0.16.1",
+    "zod": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

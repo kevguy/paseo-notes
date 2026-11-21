@@ -1,0 +1,22 @@
+{
+  "id": "paseo-notes",
+  "name": "Notes",
+  "description": "A simple autosaved scratchpad for temporary notes.",
+  "requirements": {
+    "paseo": ">=0.16.1"
+  },
+  "media": [
+    "docs/screenshots/notes-desktop.png",
+    "docs/screenshots/notes-mobile.png"
+  ],
+  "build": [
+    [
+      "npm",
+      "ci",
+      "--omit=dev",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund"
+    ]
+  ]
+}
