@@ -7,7 +7,7 @@
   "author": "Kevin Lai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevguy/paseo-notes.git"
+    "url": "git+https://github.com/kevguy/paseo-notes.git"
   },
   "homepage": "https://github.com/kevguy/paseo-notes#readme",
   "bugs": {
