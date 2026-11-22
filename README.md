@@ -49,8 +49,6 @@ The scratchpad is stored in Paseo's host-scoped plugin settings and remains ther
 
 Synthetic examples using fictional Atlas notes:
 
-![Notes scratchpad on desktop](docs/screenshots/notes-desktop.png)
-
 ![Notes scratchpad on a phone](docs/screenshots/notes-mobile.png)
 
 ## License
