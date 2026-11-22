@@ -1,5 +1,17 @@
 # Notes for Paseo
 
+A small scratchpad in Paseo's sidebar that saves automatically to your Paseo host and shows up on every paired device.
+
+```sh
+paseo plugin add npm:@kevlai22/paseo-notes
+```
+
+On the Paseo plugin directory: [paseo.sh/plugins/kevguy/notes](https://paseo.sh/plugins/kevguy/notes)
+
+![Notes scratchpad on desktop](docs/screenshots/notes-desktop.png)
+
+## About
+
 A small scratchpad for thoughts you want to keep nearby for a little while. Open **Notes** from Paseo's sidebar, type, and the note saves automatically to that Paseo host. Paired devices connected to the same host see the same scratchpad.
 
 ## Features
