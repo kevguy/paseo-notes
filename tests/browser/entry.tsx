@@ -9,5 +9,5 @@ const colors = {
 };
 const theme = { id: "notes-preview", name: "Notes preview", colors } as any;
 const params = new URLSearchParams(window.location.search);
-const props = { theme, layout: { compact: params.has("mobile"), platform: params.has("mobile") ? "android" : "web" }, params: {} } as any;
+const props = { theme, host: { id: "notes-preview", label: "Preview" }, layout: { compact: params.has("mobile"), platform: params.has("mobile") ? "android" : "web" }, params: {} } as any;
 createRoot(document.getElementById("root")!).render(<NotesScreen {...props} />);
